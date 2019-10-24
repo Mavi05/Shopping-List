@@ -18,10 +18,14 @@ function createElement()
 button.addEventListener("click", function(){
 	if(inputLength() > 0)
 		createElement();
+	else 
+		return();
 })
 
 input.addEventListener("keypress", function(event){
 	if(inputLength() > 0 && event.keyCode === 13)
 		createElement();
+	else
+		return();
 
 })
