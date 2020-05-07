@@ -1,0 +1,116 @@
+h1 {
+	font-size: 6.5em;
+}
+
+p {
+	font-size: 30px;
+}
+
+#info {
+	font-size: 3em;
+	text-align: center;
+}
+
+#Add
+{
+	text-align: center;
+}
+
+
+.button{
+
+	margin-left: 525px;
+
+}
+
+.button input{
+	padding: 10px;
+	background-color: #ecd484;
+}
+
+.button button{
+
+	background-color: rgb(74, 153, 153);
+	padding: 5px;
+	color: azure;
+
+}
+.basket {
+
+	position: absolute;
+	height: 150px;
+	width: auto;
+	top: 6rem;
+	left: 7rem;
+
+
+}
+
+.basket2 {
+
+	position: absolute;
+	height: 150px;
+	width: auto;
+	top: 6rem;
+	left: 70rem;
+
+
+}
+
+
+
+
+ul
+{
+	font-size: 25px;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+body {
+  font-family: "Indie Flower", cursive;
+  letter-spacing: 0.1rem;
+  background-image: linear-gradient(90deg, #e8b6b6, 2px, rgba(255,255,255,0), 2px, rgba(255,255,255,0)), linear-gradient(0, #d9eaf3, 1px, rgba(255,255,255,0), 2px, rgba(255,255,255,0));
+  background-position: 4rem 0;
+  background-size: 100% 2.4rem;
+  color: #111;
+  padding: 1.5rem 0 0 5rem;  
+  white-space: nowrap;
+
+  counter-reset: listCounter;
+}
+
+h1 {
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+  border-bottom: 2px solid #111;
+}
+
+.continuous-list {
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding-left: 0.001rem;
+  margin-bottom: 2.8rem;
+}
+
+.continuous-list li {
+  margin-bottom: 0.1rem;
+}
+
+.continuous-list li::before {  
+  counter-increment: listCounter;
+}
+
+
+
+
+
+
